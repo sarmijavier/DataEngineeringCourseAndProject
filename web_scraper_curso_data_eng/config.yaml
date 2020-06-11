@@ -1,5 +1,18 @@
 news_sites:
   eluniversal:
     url: http://www.eluniversal.com.mx
+    queries: 
+      homepage_article_links: '.field-content a'
   elpais:
-    url: https://elpais.com
+    url: https://elpais.com/america/
+    queries:
+      homepage_article_links: '.headline a'
+  elespectador:
+    url: 'https://www.elespectador.com/'
+    queries:
+      homepage_article_links: '.Card-title card-title h5 a'
+  publimetro:
+    url: 'https://www.publimetro.com.mx/mx/'
+    queries:
+      homepage_article_links: '.article-title a'
+  
