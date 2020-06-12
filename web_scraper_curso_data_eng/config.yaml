@@ -3,16 +3,23 @@ news_sites:
     url: http://www.eluniversal.com.mx
     queries: 
       homepage_article_links: '.field-content a'
+      article_body: '.field-name-body'
+      article_title: 'pane-content h1'
   elpais:
     url: https://elpais.com/america/
     queries:
       homepage_article_links: '.headline a'
+      article_body: ''
+      article_title: ''
   elespectador:
     url: 'https://www.elespectador.com/'
     queries:
       homepage_article_links: '.Card-title card-title h5 a'
+      article_body: ''
+      article_title: ''
   publimetro:
     url: 'https://www.publimetro.com.mx/mx/'
     queries:
       homepage_article_links: '.article-title a'
-  
+      article_body: ''
+      article_title: ''
